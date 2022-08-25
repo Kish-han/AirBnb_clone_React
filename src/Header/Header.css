@@ -17,16 +17,23 @@
 
 .header__center{
     display: flex;
-    flex: 1;
+    width: 100%;
+    /* background-color: red; */
+    flex-grow: 1;
     align-items: center;
-    max-width: fit-content;
+    max-width: 700px;
     padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     height: 30px;
     border: 1px solid lightgray;
     border-radius: 999px;
 }
 
 .header__center > input {
+    width: 100%;
     border: none;
     outline: none;
     padding: 2px 10px;
